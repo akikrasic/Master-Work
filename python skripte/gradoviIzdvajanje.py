@@ -1,0 +1,11 @@
+ulaz = file("gradovi", "r")
+svi = ulaz.read()
+gradovi = list(svi.split('\n'))
+print (gradovi)
+gradoviSortirani = gradovi.sort()
+print(gradoviSortirani)
+izlaz = file("gradoviSortirani", "w")
+for grad in gradovi:
+  izlaz.write(grad)
+  izlaz.write("\n")
+izlaz.flush()
