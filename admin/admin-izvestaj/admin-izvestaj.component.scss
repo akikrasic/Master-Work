@@ -1,0 +1,35 @@
+@mixin adminIzvestajDo(){
+  .malaTabelaIzvestaj{
+    display:grid;
+    width:100%;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    justify-items:center;
+    grid-template-columns: 48% 48%;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+    padding:5px;
+  }
+  .velikaTabelaIzvestaj{
+    display: none;
+  }
+}
+
+@mixin adminIzvestajPreko(){
+  .malaTabelaIzvestaj{
+    display:none;
+  }
+  .velikaTabelaIzvestaj{
+    display: grid;
+    width:100%;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    justify-items:center;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+    padding:5px;
+  }
+}
