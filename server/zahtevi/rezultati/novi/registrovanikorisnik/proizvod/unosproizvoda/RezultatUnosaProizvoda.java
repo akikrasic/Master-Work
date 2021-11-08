@@ -1,0 +1,9 @@
+package srb.akikrasic.zahtevi.rezultati.novi.registrovanikorisnik.proizvod.unosproizvoda;
+
+import srb.akikrasic.zahtevi.rezultati.stari.registrovanikorisnik.RezultatRegistrovaniKorisnik;
+
+/**
+ * Created by aki on 8/23/17.
+ */
+public class RezultatUnosaProizvoda extends RezultatRegistrovaniKorisnik {
+}
